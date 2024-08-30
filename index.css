@@ -127,15 +127,44 @@ h3 {
     font-size: 1.2rem;
 }
 
-/* Responsive Design */
+/* Responsive Design for Small Phones (Portrait Mode) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .choice-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .choice-image {
+        height: 45px;
+    }
+
+    .choice-reset {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+}
+
+/* Responsive Design for Regular Phones (Portrait Mode) */
 @media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
     .choice-button {
         width: 60px;
         height: 60px;
     }
 
-    h1 {
-        font-size: 1.5rem;
+    .choice-image {
+        height: 55px;
     }
 
     .choice-reset {
@@ -147,4 +176,55 @@ h3 {
         font-size: 1rem;
     }
 }
+
+/* Responsive Design for Large Phones (Portrait Mode) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .choice-button {
+        width: 70px;
+        height: 70px;
+    }
+
+    .choice-image {
+        height: 65px;
+    }
+
+    .choice-reset {
+        padding: 10px 18px;
+        font-size: 1.1rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+}
+
+/* Responsive Design for Tablets (Portrait Mode) */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .choice-button {
+        width: 80px;
+        height: 80px;
+    }
+
+    .choice-image {
+        height: 75px;
+    }
+
+    .choice-reset {
+        padding: 12px 20px;
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
 
