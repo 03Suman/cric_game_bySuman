@@ -150,6 +150,18 @@ h3 {
     h3 {
         font-size: 0.9rem;
     }
+    #score{
+        font-size:16px;
+    }
+    #user-move{
+        font-size:16px;
+    }
+    #computer-move{
+        font-size:16px;
+    }
+    #result{
+        font-size:16px;
+    }
 }
 
 /* Responsive Design for Regular Phones (Portrait Mode) */
